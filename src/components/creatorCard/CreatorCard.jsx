@@ -2,17 +2,17 @@ import React from 'react'
 
 const CreatorCard = ({data}) => {
   return (
-    <div>
-      <div>
-        <div>
+    <div className='creatorCard'>
+      <div className='creatorCardCont'>
+        <div className='creatorProfile'>
           <img src={data.img} />
         </div>
-        <div>
+        <div className='creatorInfo'>
           <p>Wzard Dee</p>
           <p>4.89 ETH</p>
         </div>
-        <div></div>
-        <div>
+        <div className='vline'></div>
+        <div className='creationCount'>
           <p>33</p>
           <p>Items</p>
         </div>

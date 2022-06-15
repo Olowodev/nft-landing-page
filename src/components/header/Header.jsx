@@ -4,32 +4,32 @@ import Button from '../button/Button'
 
 const Header = () => {
   return (
-    <div>
-      <div>
-        <div>
+    <div className='header'>
+      <div className='headerContainer'>
+        <div className='leftHeader'>
           <h1>Explore, Buy and Sell the Best NFTs!</h1>
-          <div>
+          <div className='leftHeadButtons'>
             <Button text="Explore" bgColor="#ffce4e" color="#000" />
             <Button text="Create" bgColor="#e9d7a710" color="#fff" border />
           </div>
-          <div>
-            <div>
+          <div className='achievements'>
+            <div className='achievement'>
               <h3>32k+</h3>
               <p>Artworks</p>
             </div>
-            <div>
+            <div className='achievement'>
               <h3>20k+</h3>
               <p>Auctions</p>
             </div>
-            <div>
+            <div className='achievement'>
               <h3>12k+</h3>
               <p>Creators</p>
             </div>
           </div>
         </div>
-        <div>
-          <div></div>
-          <div>
+        <div className='rightHeader'>
+          <div className='absolute'></div>
+          <div className='heroImg'>
             <img src={HeaderImg} />
           </div>
         </div>

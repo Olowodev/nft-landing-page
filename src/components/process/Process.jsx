@@ -6,33 +6,33 @@ import statIcon from '../..images/statIcon.png'
 
 const Process = () => {
   return (
-    <div>
-      <div>
+    <div className='process'>
+      <div className='processContainer'>
         <h1>How it works</h1>
-        <div>
-          <div>
-            <div>
+        <div className='processIllustrations'>
+          <div className='processIllus'>
+            <div className='illusContainer'>
               <img src={walletIcon} />
             </div>
             <p>Set Up Your Wallet</p>
           </div>
-          <div></div>
-          <div>
-            <div>
+          <div className='dashLine'></div>
+          <div className='processIllus'>
+            <div className='illusContainer'>
               <img src={collectIcon} />
             </div>
             <p>Create Your Collection</p>
           </div>
-          <div></div>
-          <div>
-            <div>
+          <div className='dashLine'></div>
+          <div className='processIllus'>
+            <div className='illusContainer'>
               <img src={addIcon} />
             </div>
             <p>Add Your NFTs</p>
           </div>
-          <div></div>
-          <div>
-            <div>
+          <div className='dashLine'></div>
+          <div className='processIllus'>
+            <div className='illusContainer'>
               <img src={statIcon} />
             </div>
             <p>List Them For Sale</p>

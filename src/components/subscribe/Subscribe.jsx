@@ -2,12 +2,12 @@ import React from 'react'
 
 const Subscribe = () => {
   return (
-    <div>
-      <div>
+    <div className='subscribe'>
+      <div className='subscribeContainer'>
         <h1>Ready for Next NFT Drop?</h1>
-        <div>
+        <div className='subInput'>
           <input placeholder='info@gmail.com' />
-          <div>
+          <div className='subButton'>
             <p>Subscribe</p>
           </div>
         </div>

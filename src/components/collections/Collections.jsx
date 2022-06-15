@@ -5,10 +5,10 @@ import CollectionCard from '../collectionCard/CollectionCard'
 
 const Collections = () => {
   return (
-    <div>
-      <div>
-        <h1>Popular Collections</h1>
-        <div>
+    <div className='collections'>
+      <div className='collectionsCont'>
+        <h1 className='collectionsTitle'>Popular Collections</h1>
+        <div className='collectionCards'>
           <FaArrowCircleRight />
           {collection.map((collect, index) => (
             <CollectionCard  key={index} data={collect}/>

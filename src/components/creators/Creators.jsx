@@ -4,10 +4,10 @@ import { creators } from '../../data'
 
 const Creators = () => {
   return (
-    <div>
-      <div>
+    <div className='creators'>
+      <div className='creatorsCont'>
         <h1>Top Creators</h1>
-        <div>
+        <div className='creatorCards'>
           {creators.map((creator, index) => (
             <CreatorCard  key={index} data={creator}/>
           ))}

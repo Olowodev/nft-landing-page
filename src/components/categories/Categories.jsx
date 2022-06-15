@@ -4,10 +4,10 @@ import CategoryCard from '../categoryCard/CategoryCard'
 
 const Categories = () => {
   return (
-    <div>
-      <div>
-        <h1>Explore By Categories</h1>
-        <div>
+    <div className='categories'>
+      <div className='categoriesCont'>
+        <h1 className='categoryTitle'>Explore By Categories</h1>
+        <div className='categoryCards'>
           {categories.map((category, index) => (
             <CategoryCard  key={index} data={category}/>
           ))}

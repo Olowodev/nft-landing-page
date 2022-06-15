@@ -6,8 +6,8 @@ import bitmex from '../../images/bitmex.png'
 
 const Companies = () => {
   return (
-    <div>
-      <div>
+    <div className='companies'>
+      <div className='companiesCont'>
         <div>
           <img src={coinbase} />
         </div>

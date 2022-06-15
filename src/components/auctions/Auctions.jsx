@@ -6,16 +6,16 @@ import {FaArrowCircleLeft, FaArrowCircleRight } from 'react-icons/fa'
 
 const Auctions = () => {
   return (
-    <div>
-      <div>
-        <h1>Live Auctions</h1>
-        <div>
-          <div>
+    <div className='auctions'>
+      <div className='auctionsCont'>
+        <h1 className='autionTitle'>Live Auctions</h1>
+        <div className='auctionNav'>
+          <div className='navIcons'>
             <FaArrowCircleLeft />
             <FaArrowCircleRight />
           </div>
         </div>
-        <div>
+        <div className='auctionCards'>
           {auction.map((auc, index) => (
             <AuctionCard  key={index} data={auc}/>
           ))}

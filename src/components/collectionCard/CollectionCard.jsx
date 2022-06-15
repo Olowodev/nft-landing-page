@@ -2,14 +2,14 @@ import React from 'react'
 
 const CollectionCard = ({data}) => {
   return (
-    <div>
-      <div>
-        <div>
+    <div className='collectionCard'>
+      <div className='collectionCardCont'>
+        <div className='collectionImg'>
           <img src={data.img} />
         </div>
-        <div>
-          <div>
-            <div>
+        <div className='collectionInfo'>
+          <div className='colletionLeft'>
+            <div className='collectionProfile'>
               <img src={data.profileImg} />
             </div>
             <p>@{data.username}</p>
