@@ -1,4 +1,5 @@
 import React from 'react'
+import './CreatorCard.css'
 
 const CreatorCard = ({data}) => {
   return (

@@ -1,0 +1,36 @@
+.categories {
+    background: linear-gradient(336.61deg, #251928 16.25%, rgba(37, 25, 40, 0) 91.6%);
+    padding-bottom: 80px;
+}
+
+.categoryTitle {
+    text-align: center;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 130px;
+}
+
+.categoryTitle::before {
+    content: "";
+    left: -40px;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    background-color: #8613a5;
+}
+
+.categoryCards {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    margin: 84px 0;
+    margin-left: 80px;
+    gap: 42px;
+}
+
+.categoryButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

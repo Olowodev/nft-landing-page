@@ -1,0 +1,45 @@
+.process {
+    margin: 174px 0;
+}
+
+.processContainer {
+    margin: 0 132px;
+}
+
+.processContainer h1 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 130px;
+    text-align: center;
+}
+
+.processIllustrations {
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.processIllus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffce4e;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.illusContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #372839;
+    padding: 29px;
+    border-radius: 50%;
+}
+
+.dashLine {
+    border-top: 2px dashed #794187;
+    width: 166px;
+}

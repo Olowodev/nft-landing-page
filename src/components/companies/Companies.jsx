@@ -3,6 +3,7 @@ import coinbase from '../../images/coinbase.png'
 import blockchain from '../../images/blockchain.png'
 import binance from '../../images/binance.png'
 import bitmex from '../../images/bitmex.png'
+import './Companies.css'
 
 const Companies = () => {
   return (

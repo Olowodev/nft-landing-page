@@ -17,7 +17,7 @@ export const auction = [
     {
         img: auction1,
         profileImg: profileImg,
-        hours: 03,
+        hours: "03",
         minutes: 18,
         seconds: 24,
         title: "Virtual Art",
@@ -28,7 +28,7 @@ export const auction = [
     {
         img: auction2,
         profileImg: profileImg,
-        hours: 03,
+        hours: '03',
         minutes: 18,
         seconds: 24,
         title: "Virtual Art",
@@ -39,7 +39,7 @@ export const auction = [
     {
         img: auction3,
         profileImg: profileImg,
-        hours: 03,
+        hours: '03',
         minutes: 18,
         seconds: 24,
         title: "Virtual Art",

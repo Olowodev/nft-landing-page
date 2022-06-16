@@ -1,0 +1,51 @@
+.auctions {
+    background: linear-gradient(336.61deg, #251928 16.25%, rgba(37, 25, 40, 0) 91.6%);
+    padding-bottom: 80px;
+}
+
+.auctionTitle {
+    text-align: center;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 130px;
+}
+
+
+
+.auctionTitle::before {
+    content: "";
+    left: -40px;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    background-color: #8613a5;
+}
+
+.auctionNav {
+    display: flex;
+    margin: 42px 80px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navIcons {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.auctionCards {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    margin-bottom: 84px;
+    margin-left: 80px;
+    gap: 42px;
+}
+
+.auctionsButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

@@ -1,13 +1,14 @@
 import React from 'react'
 import HeaderImg from '../../images/headerImg.png'
 import Button from '../button/Button'
+import './Header.css'
 
 const Header = () => {
   return (
     <div className='header'>
       <div className='headerContainer'>
         <div className='leftHeader'>
-          <h1>Explore, Buy and Sell the Best NFTs!</h1>
+          <h1>Explore, Buy and Sell the <span>Best NFTs!</span></h1>
           <div className='leftHeadButtons'>
             <Button text="Explore" bgColor="#ffce4e" color="#000" />
             <Button text="Create" bgColor="#e9d7a710" color="#fff" border />

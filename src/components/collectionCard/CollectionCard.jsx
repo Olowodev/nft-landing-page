@@ -1,4 +1,5 @@
 import React from 'react'
+import './CollectionCard.css'
 
 const CollectionCard = ({data}) => {
   return (

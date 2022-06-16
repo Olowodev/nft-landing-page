@@ -1,4 +1,6 @@
 import React from 'react'
+import {FaRegHeart} from 'react-icons/fa'
+import './CategoryCard.css'
 
 const CategoryCard = ({data}) => {
   return (
@@ -18,7 +20,7 @@ const CategoryCard = ({data}) => {
             </div>
           </div>
           <div className='categoryProfileRight'>
-            <FaRegHeart />
+            <FaRegHeart style={{fontSize: "24px"}} />
             <p>{data.likes}</p>
           </div>
         </div>

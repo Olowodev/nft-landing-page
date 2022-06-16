@@ -1,0 +1,77 @@
+.categoryCard {
+    background: #3d2942;
+}
+
+.categoryCardCont {
+    margin: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.categoryProfile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.categoryProfileLeft {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.categoryInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.categoryInfo p:first-child {
+    font-size: 28px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    line-height: 35px;
+}
+
+.categoryInfo p:last-child {
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    line-height: 35px;
+    color: #bdaac1;
+}
+
+.categoryProfileRight {
+    display: flex;
+    align-items: center;
+    color: #76607a;
+    gap: 9px;
+}
+
+.categoryProfileRight p {
+    font-size: 24px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.categoryBid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.categoryBid p:first-child {
+    font-size: 24px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    line-height: 35px;
+    color: #c6bfc8;
+}
+
+.categoryBid p:last-child {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+}

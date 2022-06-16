@@ -1,0 +1,68 @@
+.footer {
+    background-color: #251928;
+}
+
+.footerContainer {
+    margin: 108px 179px 116px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footSection {
+    display: flex;
+    gap: 51px;
+}
+
+.footLogo img {
+    width: 194px;
+    height: 194px;
+}
+
+.footSubSection {
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+}
+
+.footSubSection p:first-child {
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    line-height: 36px;
+    color: #96839b;
+}
+
+.footSubSection div {
+    display: flex;
+    align-items: center;
+    gap: 29px;
+    font-size: 40px;
+    color: #d53d5c;
+}
+
+.footSubSection p:last-child {
+    font-size: 20px;
+    font-family: 'Work sans', sans-serif;
+    font-weight: 400;
+    line-height: 36px;
+    color: #96839b;
+}
+
+.footLinks {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.footLinks h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+.footLinks p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #96839b;
+}

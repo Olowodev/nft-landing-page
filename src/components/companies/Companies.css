@@ -1,0 +1,10 @@
+.companies {
+    margin: 183px 0;
+}
+
+.companiesCont {
+    margin: 0 182px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

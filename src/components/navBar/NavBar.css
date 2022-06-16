@@ -1,0 +1,40 @@
+.navBar {
+    position: relative;
+    z-index: 2;
+}
+
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 37px 153px 139px 80px;
+    align-items: center;
+}
+
+.rightNav {
+    display: flex;
+    align-items: center;
+    gap: 161px;
+}
+
+.navLinks {
+    display: flex;
+    gap: 64px;
+    align-items: center;
+}
+
+.navLinks p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.navButton {
+    border: 1px solid #ffce4e;
+    background-color: #e9d7a710;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 21px 30px;
+}

@@ -1,6 +1,8 @@
 import React from 'react'
 import CreatorCard from '../creatorCard/CreatorCard'
 import { creators } from '../../data'
+import Button from '../button/Button'
+import './Creators.css'
 
 const Creators = () => {
   return (
@@ -12,7 +14,9 @@ const Creators = () => {
             <CreatorCard  key={index} data={creator}/>
           ))}
         </div>
-        <Button text="View All" border color="#fff" bgColor="transparent" />
+        <div className='creatorsButton'>
+          <Button text="View All" border color="#fff" bgColor="transparent" />
+        </div>
       </div>
     </div>
   )

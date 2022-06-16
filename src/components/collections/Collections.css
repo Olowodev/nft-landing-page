@@ -1,0 +1,36 @@
+.collections {
+    
+}
+
+.collectionsTitle {
+    text-align: center;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 130px;
+    margin-bottom: 106px;
+}
+
+.collectionsTitle::before {
+    content: "";
+    left: -30px;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    background-color: #e03054;
+}
+
+.collectionCards {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    margin-bottom: 84px;
+    margin-right: 80px;
+    gap: 36px;
+}
+
+.collectionsButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

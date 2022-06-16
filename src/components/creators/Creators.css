@@ -1,0 +1,34 @@
+.creators {
+    background: linear-gradient(179.78deg, #1c121f 9.98%, rgba(28, 18, 31, 0.21) 81.39%);
+    padding-bottom: 80px;
+}
+
+.creatorsCont h1 {
+    text-align: center;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 130px;
+}
+
+.creatorsCont h1::before {
+    content: "";
+    left: -40px;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    background-color: #e03054;
+}
+
+.creatorCards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 56px 72px;
+    margin: 80px 156px;
+}
+
+.creatorsButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

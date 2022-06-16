@@ -1,11 +1,13 @@
 import React from 'react'
+import {FaRegHeart} from 'react-icons/fa'
+import './AuctionCard.css'
 
 const AuctionCard = ({data}) => {
   return (
     <div className='auctionCard'>
       <div className='auctionCardCont'>
         <div className='auctionImg'>
-          <img src={data.img} />
+          <img className='test' src={data.img} />
           <div className='auctionAbsolute'>
             <p>{data.hours}:{data.minutes}:{data.seconds}</p>
           </div>
@@ -21,7 +23,7 @@ const AuctionCard = ({data}) => {
             </div>
           </div>
           <div className='auctionRight'>
-            <FaRegHeart />
+            <FaRegHeart style={{fontSize: "28px"}} />
             <p>{data.likes}</p>
           </div>
         </div>

@@ -1,0 +1,11 @@
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 24px 76px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 36px;
+}
